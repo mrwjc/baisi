@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		1D0C882E1CDA4CCC00CF9264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C882D1CDA4CCC00CF9264 /* main.m */; };
 		1D0C88311CDA4CCC00CF9264 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C88301CDA4CCC00CF9264 /* AppDelegate.m */; };
-		1D0C88341CDA4CCC00CF9264 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C88331CDA4CCC00CF9264 /* ViewController.m */; };
-		1D0C88371CDA4CCC00CF9264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0C88351CDA4CCC00CF9264 /* Main.storyboard */; };
 		1D0C88391CDA4CCC00CF9264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0C88381CDA4CCC00CF9264 /* Assets.xcassets */; };
-		1D0C883C1CDA4CCC00CF9264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0C883A1CDA4CCC00CF9264 /* LaunchScreen.storyboard */; };
 		1D0C88471CDA4CCC00CF9264 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C88461CDA4CCC00CF9264 /* __Tests.m */; };
 		1D0C88521CDA4CCC00CF9264 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C88511CDA4CCC00CF9264 /* __UITests.m */; };
+		1D0C88661CDB880700CF9264 /* JCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C88651CDB880700CF9264 /* JCTabBarController.m */; };
+		1D0C886F1CDB94C800CF9264 /* UIView+JCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C886E1CDB94C800CF9264 /* UIView+JCExtension.m */; };
+		1D0C88731CDB9D8000CF9264 /* JCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C88721CDB9D8000CF9264 /* JCTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +39,7 @@
 		1D0C882D1CDA4CCC00CF9264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D0C882F1CDA4CCC00CF9264 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D0C88301CDA4CCC00CF9264 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D0C88321CDA4CCC00CF9264 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1D0C88331CDA4CCC00CF9264 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1D0C88361CDA4CCC00CF9264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D0C88381CDA4CCC00CF9264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1D0C883B1CDA4CCC00CF9264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D0C883D1CDA4CCC00CF9264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D0C88421CDA4CCC00CF9264 /* 百思Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0C88461CDA4CCC00CF9264 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
@@ -51,6 +47,13 @@
 		1D0C884D1CDA4CCC00CF9264 /* 百思UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0C88511CDA4CCC00CF9264 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		1D0C88531CDA4CCC00CF9264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D0C88641CDB880700CF9264 /* JCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTabBarController.h; sourceTree = "<group>"; };
+		1D0C88651CDB880700CF9264 /* JCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTabBarController.m; sourceTree = "<group>"; };
+		1D0C886D1CDB94C800CF9264 /* UIView+JCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JCExtension.h"; sourceTree = "<group>"; };
+		1D0C886E1CDB94C800CF9264 /* UIView+JCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JCExtension.m"; sourceTree = "<group>"; };
+		1D0C88701CDB996800CF9264 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1D0C88711CDB9D8000CF9264 /* JCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTabBar.h; sourceTree = "<group>"; };
+		1D0C88721CDB9D8000CF9264 /* JCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +106,16 @@
 			children = (
 				1D0C882F1CDA4CCC00CF9264 /* AppDelegate.h */,
 				1D0C88301CDA4CCC00CF9264 /* AppDelegate.m */,
-				1D0C88321CDA4CCC00CF9264 /* ViewController.h */,
-				1D0C88331CDA4CCC00CF9264 /* ViewController.m */,
-				1D0C88351CDA4CCC00CF9264 /* Main.storyboard */,
 				1D0C88381CDA4CCC00CF9264 /* Assets.xcassets */,
-				1D0C883A1CDA4CCC00CF9264 /* LaunchScreen.storyboard */,
 				1D0C883D1CDA4CCC00CF9264 /* Info.plist */,
 				1D0C882C1CDA4CCC00CF9264 /* Supporting Files */,
+				1D0C88641CDB880700CF9264 /* JCTabBarController.h */,
+				1D0C88651CDB880700CF9264 /* JCTabBarController.m */,
+				1D0C886D1CDB94C800CF9264 /* UIView+JCExtension.h */,
+				1D0C886E1CDB94C800CF9264 /* UIView+JCExtension.m */,
+				1D0C88701CDB996800CF9264 /* PrefixHeader.pch */,
+				1D0C88711CDB9D8000CF9264 /* JCTabBar.h */,
+				1D0C88721CDB9D8000CF9264 /* JCTabBar.m */,
 			);
 			path = "百思";
 			sourceTree = "<group>";
@@ -202,6 +208,7 @@
 		1D0C88211CDA4CCC00CF9264 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JC;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = mr.w;
 				TargetAttributes = {
@@ -246,9 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D0C883C1CDA4CCC00CF9264 /* LaunchScreen.storyboard in Resources */,
 				1D0C88391CDA4CCC00CF9264 /* Assets.xcassets in Resources */,
-				1D0C88371CDA4CCC00CF9264 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D0C88341CDA4CCC00CF9264 /* ViewController.m in Sources */,
+				1D0C88661CDB880700CF9264 /* JCTabBarController.m in Sources */,
+				1D0C886F1CDB94C800CF9264 /* UIView+JCExtension.m in Sources */,
 				1D0C88311CDA4CCC00CF9264 /* AppDelegate.m in Sources */,
+				1D0C88731CDB9D8000CF9264 /* JCTabBar.m in Sources */,
 				1D0C882E1CDA4CCC00CF9264 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,25 +316,6 @@
 			targetProxy = 1D0C884E1CDA4CCC00CF9264 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1D0C88351CDA4CCC00CF9264 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D0C88361CDA4CCC00CF9264 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1D0C883A1CDA4CCC00CF9264 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D0C883B1CDA4CCC00CF9264 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D0C88541CDA4CCC00CF9264 /* Debug */ = {
@@ -418,7 +406,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "百思/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GDUF-JC.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,7 +420,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "百思/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GDUF-JC.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
