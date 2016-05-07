@@ -12,6 +12,7 @@
 @property(nonatomic,weak)UIButton *publishBtn;
 @end
 @implementation JCTabBar
+
 -(instancetype)initWithFrame:(CGRect)frame{
     if(self=[super initWithFrame:frame]){
         //设置tabBar背景图片
@@ -23,14 +24,16 @@
 
         publishBtn.size=publishBtn.currentBackgroundImage.size;
         
-        
         [self addSubview:publishBtn];
+        
         self.publishBtn=publishBtn;
     }
     return self;
 }
 
 -(void)layoutSubviews{
+    
+    [super layoutSubviews];
     //设置添加按钮的frame
     self.publishBtn.center=CGPointMake(self.width*0.5, self.height*0.5);
     
@@ -42,7 +45,7 @@
     NSInteger index=0;
     for (UIView *item in self.subviews) {
         
-        if(![item isKindOfClass:[UIControl class]]||item==self.publishBtn) return ;
+        if(![item isKindOfClass:[UIControl class]]||item==self.publishBtn) continue ;
         btnX=btnW*((index>1)?(index+1):index);
         item.frame=CGRectMake(btnX, btnY, btnW, btnH);
         index++;

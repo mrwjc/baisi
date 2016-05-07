@@ -8,6 +8,11 @@
 
 #import "JCTabBarController.h"
 #import "JCTabBar.h"
+#import "JCNavigationController.h"
+#import "JCEssenceController.h"
+#import "JCMeViewController.h"
+#import "JCNewPostsController.h"
+#import "JCFriendTrendsController.h"
 @interface JCTabBarController ()
 
 @end
@@ -17,10 +22,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSMutableDictionary *attr=[NSMutableDictionary dictionary];
+    
+    attr[NSForegroundColorAttributeName]=[UIColor darkGrayColor];
+    
+    UITabBarItem *item=[UITabBarItem appearance];
+    
+    [item setTitleTextAttributes:attr forState:UIControlStateSelected];
     
     [self setUpAllChildViewControllers];
     
     [self setValue:[[JCTabBar alloc]init] forKeyPath:@"tabBar"];
+    
+    
+    
     
    // NSLog(@"%@",self.tabBar);
 }
@@ -28,17 +43,18 @@
  *  统一添加子控制器
  */
 -(void)setUpAllChildViewControllers{
-    UIViewController *essence=[[UIViewController alloc]init];
+    
+     JCEssenceController *essence=[[JCEssenceController alloc]init];
     [self setUpChildViewController:essence Title:@"精华" image:[UIImage imageNamed:@"tabBar_essence_icon"] selectImage:[UIImage imageNamed:@"tabBar_essence_click_icon"]];
     
     
-    UIViewController *newVc=[[UIViewController alloc]init];
+    JCNewPostsController* newVc=[[JCNewPostsController alloc]init];
     [self setUpChildViewController:newVc Title:@"新帖" image:[UIImage imageNamed:@"tabBar_new_icon"] selectImage:[UIImage imageNamed:@"tabBar_new_click_icon"]];
     
-    UIViewController *friendTrends=[[UIViewController alloc]init];
+    JCFriendTrendsController *friendTrends=[[JCFriendTrendsController alloc]init];
     [self setUpChildViewController:friendTrends Title:@"关注" image:[UIImage imageNamed:@"tabBar_friendTrends_icon"] selectImage:[UIImage imageNamed:@"tabBar_friendTrends_click_icon"]];
     
-    UIViewController *meVc=[[UIViewController alloc]init];
+    JCMeViewController *meVc=[[JCMeViewController alloc]init];
     [self setUpChildViewController:meVc Title:@"我" image:[UIImage imageNamed:@"tabBar_me_icon"] selectImage:[UIImage imageNamed:@"tabBar_me_click_icon"]];
     
 }
@@ -55,7 +71,8 @@
     viewController.tabBarItem.title=title;
     viewController.tabBarItem.image=image;
     viewController.tabBarItem.selectedImage=selectImage;
-    [self addChildViewController:viewController];
+    JCNavigationController *naVC=[[JCNavigationController alloc]initWithRootViewController:viewController];
+    [self addChildViewController:naVC];
 }
 
 @end
