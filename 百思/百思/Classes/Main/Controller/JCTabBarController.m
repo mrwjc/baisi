@@ -67,7 +67,7 @@
  *  @param selectImage    item的selectImage
  */
 -(void)setUpChildViewController:(UIViewController *)viewController Title:(NSString *)title  image:(UIImage *)image selectImage:(UIImage *)selectImage{
-    viewController.view.backgroundColor=[UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1];
+    viewController.view.backgroundColor=JCColor;
     viewController.tabBarItem.title=title;
     viewController.tabBarItem.image=image;
     viewController.tabBarItem.selectedImage=selectImage;

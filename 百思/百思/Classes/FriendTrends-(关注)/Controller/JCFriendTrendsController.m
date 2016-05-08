@@ -8,6 +8,8 @@
 
 #import "JCFriendTrendsController.h"
 #import "UIBarButtonItem+JCNavigationItem.h"
+#import <AFNetworking.h>
+#import "JCRecommendViewController.h"
 @interface JCFriendTrendsController ()
 
 @end
@@ -18,6 +20,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self setNav];
+    
+    
 }
 
 -(void)setNav{
@@ -26,14 +30,6 @@
     self.navigationItem.leftBarButtonItem=[UIBarButtonItem itemWithImage:[UIImage imageNamed:@"friendsRecommentIcon"] SelectImg:[UIImage imageNamed:@"friendsRecommentIcon-click"] target:self action:@selector(add)];
 }
 -(void)add{
-    
-}
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    UIViewController *viewController=[[UIViewController alloc]init];
-    viewController.view.backgroundColor=[UIColor greenColor];
-    
-    
-    
-    [self.navigationController pushViewController:viewController animated:YES];
+    [self.navigationController pushViewController:[[JCRecommendViewController alloc]init] animated:YES];
 }
 @end

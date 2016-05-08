@@ -21,6 +21,16 @@
 		1DE92E101CDC7BC900E8DC69 /* UIView+JCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE92E071CDC7BC900E8DC69 /* UIView+JCExtension.m */; };
 		1DE92E131CDC7C3E00E8DC69 /* JCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE92E121CDC7C3E00E8DC69 /* JCNavigationController.m */; };
 		1DE92E1A1CDD727600E8DC69 /* UIBarButtonItem+JCNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE92E191CDD727600E8DC69 /* UIBarButtonItem+JCNavigationItem.m */; };
+		1DE92E1C1CDDDD2900E8DC69 /* JCFriendTrendsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE92E1B1CDDDD2900E8DC69 /* JCFriendTrendsController.xib */; };
+		1DE92E201CDDE57A00E8DC69 /* JCRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE92E1E1CDDE57A00E8DC69 /* JCRecommendViewController.m */; };
+		1DE92E211CDDE57A00E8DC69 /* JCRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE92E1F1CDDE57A00E8DC69 /* JCRecommendViewController.xib */; };
+		1DE92E241CDE1BEB00E8DC69 /* JCRecommandCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE92E231CDE1BEB00E8DC69 /* JCRecommandCategory.m */; };
+		1DE92E2D1CDE324E00E8DC69 /* JCRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE92E2B1CDE324E00E8DC69 /* JCRecommendCategoryCell.m */; };
+		1DE92E2E1CDE324E00E8DC69 /* JCRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE92E2C1CDE324E00E8DC69 /* JCRecommendCategoryCell.xib */; };
+		1DE92E321CDEE51300E8DC69 /* JCRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE92E301CDEE51300E8DC69 /* JCRecommendUserCell.m */; };
+		1DE92E331CDEE51300E8DC69 /* JCRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE92E311CDEE51300E8DC69 /* JCRecommendUserCell.xib */; };
+		1DE92E361CDEFACA00E8DC69 /* JCRecommandUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE92E351CDEFACA00E8DC69 /* JCRecommandUser.m */; };
+		F16AE5D36B28B6EC395DD92D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6366FD6CA2C64F318DADAE1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +82,23 @@
 		1DE92E121CDC7C3E00E8DC69 /* JCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNavigationController.m; sourceTree = "<group>"; };
 		1DE92E181CDD727600E8DC69 /* UIBarButtonItem+JCNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JCNavigationItem.h"; sourceTree = "<group>"; };
 		1DE92E191CDD727600E8DC69 /* UIBarButtonItem+JCNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JCNavigationItem.m"; sourceTree = "<group>"; };
+		1DE92E1B1CDDDD2900E8DC69 /* JCFriendTrendsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCFriendTrendsController.xib; sourceTree = "<group>"; };
+		1DE92E1D1CDDE57A00E8DC69 /* JCRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCRecommendViewController.h; sourceTree = "<group>"; };
+		1DE92E1E1CDDE57A00E8DC69 /* JCRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCRecommendViewController.m; sourceTree = "<group>"; };
+		1DE92E1F1CDDE57A00E8DC69 /* JCRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCRecommendViewController.xib; sourceTree = "<group>"; };
+		1DE92E221CDE1BEB00E8DC69 /* JCRecommandCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCRecommandCategory.h; sourceTree = "<group>"; };
+		1DE92E231CDE1BEB00E8DC69 /* JCRecommandCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCRecommandCategory.m; sourceTree = "<group>"; };
+		1DE92E2A1CDE324E00E8DC69 /* JCRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCRecommendCategoryCell.h; sourceTree = "<group>"; };
+		1DE92E2B1CDE324E00E8DC69 /* JCRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCRecommendCategoryCell.m; sourceTree = "<group>"; };
+		1DE92E2C1CDE324E00E8DC69 /* JCRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCRecommendCategoryCell.xib; sourceTree = "<group>"; };
+		1DE92E2F1CDEE51300E8DC69 /* JCRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCRecommendUserCell.h; sourceTree = "<group>"; };
+		1DE92E301CDEE51300E8DC69 /* JCRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCRecommendUserCell.m; sourceTree = "<group>"; };
+		1DE92E311CDEE51300E8DC69 /* JCRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCRecommendUserCell.xib; sourceTree = "<group>"; };
+		1DE92E341CDEFACA00E8DC69 /* JCRecommandUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCRecommandUser.h; sourceTree = "<group>"; };
+		1DE92E351CDEFACA00E8DC69 /* JCRecommandUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCRecommandUser.m; sourceTree = "<group>"; };
+		3705500F3C4F84EEC0C2A7A0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C2354B0610C5567617448666 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C6366FD6CA2C64F318DADAE1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16AE5D36B28B6EC395DD92D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +127,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B4931571B34CF0E0E57CC26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2354B0610C5567617448666 /* Pods.debug.xcconfig */,
+				3705500F3C4F84EEC0C2A7A0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1D0C88201CDA4CCB00CF9264 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +143,8 @@
 				1D0C88451CDA4CCC00CF9264 /* 百思Tests */,
 				1D0C88501CDA4CCC00CF9264 /* 百思UITests */,
 				1D0C882A1CDA4CCC00CF9264 /* Products */,
+				1B4931571B34CF0E0E57CC26 /* Pods */,
+				D28425093C24AB79B079BFFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -216,6 +255,10 @@
 			children = (
 				1DE92DE91CDC7BC900E8DC69 /* JCFriendTrendsController.h */,
 				1DE92DEA1CDC7BC900E8DC69 /* JCFriendTrendsController.m */,
+				1DE92E1B1CDDDD2900E8DC69 /* JCFriendTrendsController.xib */,
+				1DE92E1D1CDDE57A00E8DC69 /* JCRecommendViewController.h */,
+				1DE92E1E1CDDE57A00E8DC69 /* JCRecommendViewController.m */,
+				1DE92E1F1CDDE57A00E8DC69 /* JCRecommendViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -223,6 +266,10 @@
 		1DE92DEB1CDC7BC900E8DC69 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1DE92E221CDE1BEB00E8DC69 /* JCRecommandCategory.h */,
+				1DE92E231CDE1BEB00E8DC69 /* JCRecommandCategory.m */,
+				1DE92E341CDEFACA00E8DC69 /* JCRecommandUser.h */,
+				1DE92E351CDEFACA00E8DC69 /* JCRecommandUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -230,6 +277,12 @@
 		1DE92DEC1CDC7BC900E8DC69 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1DE92E2A1CDE324E00E8DC69 /* JCRecommendCategoryCell.h */,
+				1DE92E2B1CDE324E00E8DC69 /* JCRecommendCategoryCell.m */,
+				1DE92E2C1CDE324E00E8DC69 /* JCRecommendCategoryCell.xib */,
+				1DE92E2F1CDEE51300E8DC69 /* JCRecommendUserCell.h */,
+				1DE92E301CDEE51300E8DC69 /* JCRecommendUserCell.m */,
+				1DE92E311CDEE51300E8DC69 /* JCRecommendUserCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -360,6 +413,14 @@
 			path = Categery;
 			sourceTree = "<group>";
 		};
+		D28425093C24AB79B079BFFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6366FD6CA2C64F318DADAE1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -367,9 +428,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D0C88561CDA4CCC00CF9264 /* Build configuration list for PBXNativeTarget "百思" */;
 			buildPhases = (
+				9946341E07C4802CA1CBDF29 /* Check Pods Manifest.lock */,
 				1D0C88251CDA4CCC00CF9264 /* Sources */,
 				1D0C88261CDA4CCC00CF9264 /* Frameworks */,
 				1D0C88271CDA4CCC00CF9264 /* Resources */,
+				AD349BD205481D6E40F92987 /* Embed Pods Frameworks */,
+				3AABEA5524E40B17FF01BEC0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -467,7 +531,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE92E1C1CDDDD2900E8DC69 /* JCFriendTrendsController.xib in Resources */,
+				1DE92E2E1CDE324E00E8DC69 /* JCRecommendCategoryCell.xib in Resources */,
+				1DE92E211CDDE57A00E8DC69 /* JCRecommendViewController.xib in Resources */,
 				1D0C88391CDA4CCC00CF9264 /* Assets.xcassets in Resources */,
+				1DE92E331CDEE51300E8DC69 /* JCRecommendUserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +555,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AABEA5524E40B17FF01BEC0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9946341E07C4802CA1CBDF29 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD349BD205481D6E40F92987 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D0C88251CDA4CCC00CF9264 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -496,13 +612,18 @@
 				1DE92E091CDC7BC900E8DC69 /* JCFriendTrendsController.m in Sources */,
 				1DE92E1A1CDD727600E8DC69 /* UIBarButtonItem+JCNavigationItem.m in Sources */,
 				1DE92E0D1CDC7BC900E8DC69 /* JCNewPostsController.m in Sources */,
+				1DE92E321CDEE51300E8DC69 /* JCRecommendUserCell.m in Sources */,
 				1DE92E081CDC7BC900E8DC69 /* JCEssenceController.m in Sources */,
 				1DE92E0C1CDC7BC900E8DC69 /* JCMeViewController.m in Sources */,
 				1DE92E0B1CDC7BC900E8DC69 /* JCTabBar.m in Sources */,
 				1DE92E0A1CDC7BC900E8DC69 /* JCTabBarController.m in Sources */,
+				1DE92E201CDDE57A00E8DC69 /* JCRecommendViewController.m in Sources */,
+				1DE92E2D1CDE324E00E8DC69 /* JCRecommendCategoryCell.m in Sources */,
 				1DE92E0F1CDC7BC900E8DC69 /* main.m in Sources */,
 				1DE92E131CDC7C3E00E8DC69 /* JCNavigationController.m in Sources */,
 				1DE92E0E1CDC7BC900E8DC69 /* AppDelegate.m in Sources */,
+				1DE92E361CDEFACA00E8DC69 /* JCRecommandUser.m in Sources */,
+				1DE92E241CDE1BEB00E8DC69 /* JCRecommandCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,9 +745,11 @@
 		};
 		1D0C88571CDA4CCC00CF9264 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2354B0610C5567617448666 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				GCC_PREFIX_HEADER = "百思/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -638,9 +761,11 @@
 		};
 		1D0C88581CDA4CCC00CF9264 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3705500F3C4F84EEC0C2A7A0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				GCC_PREFIX_HEADER = "百思/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
