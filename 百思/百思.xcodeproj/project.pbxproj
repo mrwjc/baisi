@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D07C04F1CE2B8DE00DA2D0E /* JCRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07C04E1CE2B8DE00DA2D0E /* JCRecommendTagsViewController.m */; };
+		1D07C0521CE36A6600DA2D0E /* JCTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07C0511CE36A6600DA2D0E /* JCTag.m */; };
+		1D07C0561CE36BC000DA2D0E /* JCTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07C0541CE36BC000DA2D0E /* JCTagCell.m */; };
+		1D07C0571CE36BC000DA2D0E /* JCTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D07C0551CE36BC000DA2D0E /* JCTagCell.xib */; };
 		1D0C88391CDA4CCC00CF9264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0C88381CDA4CCC00CF9264 /* Assets.xcassets */; };
 		1D0C88471CDA4CCC00CF9264 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C88461CDA4CCC00CF9264 /* __Tests.m */; };
 		1D0C88521CDA4CCC00CF9264 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C88511CDA4CCC00CF9264 /* __UITests.m */; };
@@ -51,6 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D07C04D1CE2B8DE00DA2D0E /* JCRecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCRecommendTagsViewController.h; sourceTree = "<group>"; };
+		1D07C04E1CE2B8DE00DA2D0E /* JCRecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCRecommendTagsViewController.m; sourceTree = "<group>"; };
+		1D07C0501CE36A6600DA2D0E /* JCTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTag.h; sourceTree = "<group>"; };
+		1D07C0511CE36A6600DA2D0E /* JCTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTag.m; sourceTree = "<group>"; };
+		1D07C0531CE36BC000DA2D0E /* JCTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTagCell.h; sourceTree = "<group>"; };
+		1D07C0541CE36BC000DA2D0E /* JCTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTagCell.m; sourceTree = "<group>"; };
+		1D07C0551CE36BC000DA2D0E /* JCTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCTagCell.xib; sourceTree = "<group>"; };
 		1D0C88291CDA4CCC00CF9264 /* 百思.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0C88381CDA4CCC00CF9264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D0C883D1CDA4CCC00CF9264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -222,6 +233,8 @@
 			children = (
 				1DE92DE31CDC7BC900E8DC69 /* JCEssenceController.h */,
 				1DE92DE41CDC7BC900E8DC69 /* JCEssenceController.m */,
+				1D07C04D1CE2B8DE00DA2D0E /* JCRecommendTagsViewController.h */,
+				1D07C04E1CE2B8DE00DA2D0E /* JCRecommendTagsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -229,6 +242,8 @@
 		1DE92DE51CDC7BC900E8DC69 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1D07C0501CE36A6600DA2D0E /* JCTag.h */,
+				1D07C0511CE36A6600DA2D0E /* JCTag.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -236,6 +251,9 @@
 		1DE92DE61CDC7BC900E8DC69 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1D07C0531CE36BC000DA2D0E /* JCTagCell.h */,
+				1D07C0541CE36BC000DA2D0E /* JCTagCell.m */,
+				1D07C0551CE36BC000DA2D0E /* JCTagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -536,6 +554,7 @@
 				1DE92E211CDDE57A00E8DC69 /* JCRecommendViewController.xib in Resources */,
 				1D0C88391CDA4CCC00CF9264 /* Assets.xcassets in Resources */,
 				1DE92E331CDEE51300E8DC69 /* JCRecommendUserCell.xib in Resources */,
+				1D07C0571CE36BC000DA2D0E /* JCTagCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,10 +630,12 @@
 				1DE92E101CDC7BC900E8DC69 /* UIView+JCExtension.m in Sources */,
 				1DE92E091CDC7BC900E8DC69 /* JCFriendTrendsController.m in Sources */,
 				1DE92E1A1CDD727600E8DC69 /* UIBarButtonItem+JCNavigationItem.m in Sources */,
+				1D07C0521CE36A6600DA2D0E /* JCTag.m in Sources */,
 				1DE92E0D1CDC7BC900E8DC69 /* JCNewPostsController.m in Sources */,
 				1DE92E321CDEE51300E8DC69 /* JCRecommendUserCell.m in Sources */,
 				1DE92E081CDC7BC900E8DC69 /* JCEssenceController.m in Sources */,
 				1DE92E0C1CDC7BC900E8DC69 /* JCMeViewController.m in Sources */,
+				1D07C0561CE36BC000DA2D0E /* JCTagCell.m in Sources */,
 				1DE92E0B1CDC7BC900E8DC69 /* JCTabBar.m in Sources */,
 				1DE92E0A1CDC7BC900E8DC69 /* JCTabBarController.m in Sources */,
 				1DE92E201CDDE57A00E8DC69 /* JCRecommendViewController.m in Sources */,
@@ -623,6 +644,7 @@
 				1DE92E131CDC7C3E00E8DC69 /* JCNavigationController.m in Sources */,
 				1DE92E0E1CDC7BC900E8DC69 /* AppDelegate.m in Sources */,
 				1DE92E361CDEFACA00E8DC69 /* JCRecommandUser.m in Sources */,
+				1D07C04F1CE2B8DE00DA2D0E /* JCRecommendTagsViewController.m in Sources */,
 				1DE92E241CDE1BEB00E8DC69 /* JCRecommandCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

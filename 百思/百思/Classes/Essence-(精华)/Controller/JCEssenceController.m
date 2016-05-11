@@ -8,6 +8,7 @@
 
 #import "JCEssenceController.h"
 #import "UIBarButtonItem+JCNavigationItem.h"
+#import "JCRecommendTagsViewController.h"
 @interface JCEssenceController ()
 
 @end
@@ -31,7 +32,9 @@
 }
 
 -(void)btnClick{
+    JCRecommendTagsViewController *tags=[[JCRecommendTagsViewController alloc]init];
     
+    [self.navigationController pushViewController:tags animated:YES];
 }
 
 
