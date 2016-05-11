@@ -31,5 +31,6 @@
 }
 -(void)add{
     [self.navigationController pushViewController:[[JCRecommendViewController alloc]init] animated:YES];
+    
 }
 @end

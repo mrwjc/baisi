@@ -33,7 +33,6 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="z84-Uj-pvi"/>
-                        <outlet property="delegate" destination="-1" id="iGh-xr-g5L"/>
                     </connections>
                 </tableView>
             </subviews>
@@ -47,7 +46,7 @@
                 <constraint firstItem="9s4-in-4ro" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ZSv-0U-yg3"/>
                 <constraint firstAttribute="trailing" secondItem="2CH-na-ORA" secondAttribute="trailing" id="iS0-ge-ZVz"/>
             </constraints>
-            <point key="canvasLocation" x="337" y="191"/>
+            <point key="canvasLocation" x="93" y="172"/>
         </view>
     </objects>
 </document>

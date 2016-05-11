@@ -16,6 +16,5 @@
 /**头像*/
 @property(nonatomic,copy)NSString *header;
 
-/**<#注释#>*/
-//@property(nonatomic,strong)NSMutableArray *<#name#>;
+
 @end

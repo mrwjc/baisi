@@ -22,7 +22,7 @@
     
 }
 -(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
-    JCLog(@"%ld",self.childViewControllers.count);
+//    JCLog(@"%ld",self.childViewControllers.count);
     if(self.childViewControllers.count>0){
         UIButton *button=[UIButton buttonWithType:UIButtonTypeContactAdd];
         [button setTitle:@"返回" forState:UIControlStateNormal];
