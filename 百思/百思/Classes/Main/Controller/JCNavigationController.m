@@ -35,7 +35,9 @@
         button.size=CGSizeMake(60, 44);
         [button addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
         viewController.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc]initWithCustomView:button];
+         viewController.hidesBottomBarWhenPushed=YES;
     }
+   
     [super pushViewController:viewController animated:animated];
 }
 -(void)back{

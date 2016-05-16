@@ -68,6 +68,8 @@ static NSString * const userID=@"user";
     //设置标题
     self.title=@"推荐关注";
     
+    self.detailTableView.backgroundColor=JCGlobalBg;
+    self.tagTableView.backgroundColor=JCGlobalBg;
 }
 /**
  *  设置刷新控件

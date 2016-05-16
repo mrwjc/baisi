@@ -32,7 +32,7 @@
 欧耶~~~~!
 </string>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aow-4U-DJR">
@@ -46,6 +46,9 @@
                         <color key="titleColor" red="1" green="0.11533768562072233" blue="0.17358286831571257" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                     <state key="highlighted" title="立即登录注册" backgroundImage="friendsTrend_login_click"/>
+                    <connections>
+                        <action selector="login:" destination="-1" eventType="touchUpInside" id="nC0-fu-PI5"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

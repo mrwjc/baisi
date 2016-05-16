@@ -36,8 +36,7 @@
     
     
     
-    
-   // NSLog(@"%@",self.tabBar);
+    NSLog(@"%@",self.childViewControllers);
 }
 /**
  *  统一添加子控制器
@@ -67,7 +66,7 @@
  *  @param selectImage    item的selectImage
  */
 -(void)setUpChildViewController:(UIViewController *)viewController Title:(NSString *)title  image:(UIImage *)image selectImage:(UIImage *)selectImage{
-    viewController.view.backgroundColor=JCColor;
+    //viewController.view.backgroundColor=JCColor;
     viewController.tabBarItem.title=title;
     viewController.tabBarItem.image=image;
     viewController.tabBarItem.selectedImage=selectImage;

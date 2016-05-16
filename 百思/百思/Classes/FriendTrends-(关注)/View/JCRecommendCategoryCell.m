@@ -29,4 +29,9 @@
     self.textLabel.textColor=(selected?[UIColor redColor]:[UIColor darkGrayColor]);
     self.indecatorView.hidden=!selected;
 }
+-(void)setFrame:(CGRect)frame{
+    frame.size.height-=1;
+    
+    [super setFrame:frame];
+}
 @end

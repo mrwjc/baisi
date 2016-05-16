@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setNav];
+    
 }
 -(void)setNav{
     self.navigationItem.title=@"我的";

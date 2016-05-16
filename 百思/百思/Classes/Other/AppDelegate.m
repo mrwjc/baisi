@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "JCTabBarController.h"
+#import "JCPushView.h"
 @interface AppDelegate ()
 
 @end
@@ -24,6 +25,9 @@
     self.window.rootViewController=[[JCTabBarController alloc]init];
     
     [self.window makeKeyAndVisible];
+    
+    
+    [JCPushView show];
     
     return YES;
 }

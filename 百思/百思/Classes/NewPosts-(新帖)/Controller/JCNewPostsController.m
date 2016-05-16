@@ -18,6 +18,7 @@
     [super viewDidLoad];
     [self setUpNav];
     
+    self.view.backgroundColor=JCColor;
 }
 
 -(void)setUpNav{

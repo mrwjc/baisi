@@ -14,6 +14,11 @@
 		1D0C88391CDA4CCC00CF9264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0C88381CDA4CCC00CF9264 /* Assets.xcassets */; };
 		1D0C88471CDA4CCC00CF9264 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C88461CDA4CCC00CF9264 /* __Tests.m */; };
 		1D0C88521CDA4CCC00CF9264 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C88511CDA4CCC00CF9264 /* __UITests.m */; };
+		1D16F2EA1CE776580011A88A /* JCQuickLoginBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D16F2E91CE776580011A88A /* JCQuickLoginBtn.m */; };
+		1D16F2ED1CE828F40011A88A /* JCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D16F2EC1CE828F40011A88A /* JCTextField.m */; };
+		1D16F2F01CE846800011A88A /* JCLoginBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D16F2EF1CE846800011A88A /* JCLoginBtn.m */; };
+		1D16F2F41CE958C90011A88A /* JCPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D16F2F31CE958C90011A88A /* JCPushView.m */; };
+		1D16F2F61CE958D80011A88A /* JCPushView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D16F2F51CE958D80011A88A /* JCPushView.xib */; };
 		1DE92E081CDC7BC900E8DC69 /* JCEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE92DE41CDC7BC900E8DC69 /* JCEssenceController.m */; };
 		1DE92E091CDC7BC900E8DC69 /* JCFriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE92DEA1CDC7BC900E8DC69 /* JCFriendTrendsController.m */; };
 		1DE92E0A1CDC7BC900E8DC69 /* JCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE92DF01CDC7BC900E8DC69 /* JCTabBarController.m */; };
@@ -34,6 +39,8 @@
 		1DE92E321CDEE51300E8DC69 /* JCRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE92E301CDEE51300E8DC69 /* JCRecommendUserCell.m */; };
 		1DE92E331CDEE51300E8DC69 /* JCRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE92E311CDEE51300E8DC69 /* JCRecommendUserCell.xib */; };
 		1DE92E361CDEFACA00E8DC69 /* JCRecommandUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE92E351CDEFACA00E8DC69 /* JCRecommandUser.m */; };
+		1DF2464B1CE4CEF90052C8C9 /* JCLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF246491CE4CEF90052C8C9 /* JCLoginController.m */; };
+		1DF2464C1CE4CEF90052C8C9 /* JCLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DF2464A1CE4CEF90052C8C9 /* JCLoginController.xib */; };
 		F16AE5D36B28B6EC395DD92D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6366FD6CA2C64F318DADAE1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +78,15 @@
 		1D0C884D1CDA4CCC00CF9264 /* 百思UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0C88511CDA4CCC00CF9264 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		1D0C88531CDA4CCC00CF9264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D16F2E81CE776580011A88A /* JCQuickLoginBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCQuickLoginBtn.h; sourceTree = "<group>"; };
+		1D16F2E91CE776580011A88A /* JCQuickLoginBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCQuickLoginBtn.m; sourceTree = "<group>"; };
+		1D16F2EB1CE828F40011A88A /* JCTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTextField.h; sourceTree = "<group>"; };
+		1D16F2EC1CE828F40011A88A /* JCTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTextField.m; sourceTree = "<group>"; };
+		1D16F2EE1CE846800011A88A /* JCLoginBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLoginBtn.h; sourceTree = "<group>"; };
+		1D16F2EF1CE846800011A88A /* JCLoginBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLoginBtn.m; sourceTree = "<group>"; };
+		1D16F2F21CE958C90011A88A /* JCPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCPushView.h; sourceTree = "<group>"; };
+		1D16F2F31CE958C90011A88A /* JCPushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCPushView.m; sourceTree = "<group>"; };
+		1D16F2F51CE958D80011A88A /* JCPushView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCPushView.xib; sourceTree = "<group>"; };
 		1DE92DE31CDC7BC900E8DC69 /* JCEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCEssenceController.h; sourceTree = "<group>"; };
 		1DE92DE41CDC7BC900E8DC69 /* JCEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCEssenceController.m; sourceTree = "<group>"; };
 		1DE92DE91CDC7BC900E8DC69 /* JCFriendTrendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCFriendTrendsController.h; sourceTree = "<group>"; };
@@ -107,6 +123,9 @@
 		1DE92E311CDEE51300E8DC69 /* JCRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCRecommendUserCell.xib; sourceTree = "<group>"; };
 		1DE92E341CDEFACA00E8DC69 /* JCRecommandUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCRecommandUser.h; sourceTree = "<group>"; };
 		1DE92E351CDEFACA00E8DC69 /* JCRecommandUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCRecommandUser.m; sourceTree = "<group>"; };
+		1DF246481CE4CEF90052C8C9 /* JCLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLoginController.h; sourceTree = "<group>"; };
+		1DF246491CE4CEF90052C8C9 /* JCLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLoginController.m; sourceTree = "<group>"; };
+		1DF2464A1CE4CEF90052C8C9 /* JCLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCLoginController.xib; sourceTree = "<group>"; };
 		3705500F3C4F84EEC0C2A7A0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C2354B0610C5567617448666 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C6366FD6CA2C64F318DADAE1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,6 +224,16 @@
 			path = "百思UITests";
 			sourceTree = "<group>";
 		};
+		1D16F2F11CE958B20011A88A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D16F2F21CE958C90011A88A /* JCPushView.h */,
+				1D16F2F31CE958C90011A88A /* JCPushView.m */,
+				1D16F2F51CE958D80011A88A /* JCPushView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1DE92DE01CDC7BC900E8DC69 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +306,9 @@
 				1DE92E1D1CDDE57A00E8DC69 /* JCRecommendViewController.h */,
 				1DE92E1E1CDDE57A00E8DC69 /* JCRecommendViewController.m */,
 				1DE92E1F1CDDE57A00E8DC69 /* JCRecommendViewController.xib */,
+				1DF246481CE4CEF90052C8C9 /* JCLoginController.h */,
+				1DF246491CE4CEF90052C8C9 /* JCLoginController.m */,
+				1DF2464A1CE4CEF90052C8C9 /* JCLoginController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -301,6 +333,12 @@
 				1DE92E2F1CDEE51300E8DC69 /* JCRecommendUserCell.h */,
 				1DE92E301CDEE51300E8DC69 /* JCRecommendUserCell.m */,
 				1DE92E311CDEE51300E8DC69 /* JCRecommendUserCell.xib */,
+				1D16F2E81CE776580011A88A /* JCQuickLoginBtn.h */,
+				1D16F2E91CE776580011A88A /* JCQuickLoginBtn.m */,
+				1D16F2EB1CE828F40011A88A /* JCTextField.h */,
+				1D16F2EC1CE828F40011A88A /* JCTextField.m */,
+				1D16F2EE1CE846800011A88A /* JCLoginBtn.h */,
+				1D16F2EF1CE846800011A88A /* JCLoginBtn.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -411,6 +449,7 @@
 		1DE92E011CDC7BC900E8DC69 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				1D16F2F11CE958B20011A88A /* View */,
 				1DE92E171CDD727600E8DC69 /* Categery */,
 				1DE92E021CDC7BC900E8DC69 /* AppDelegate.h */,
 				1DE92E031CDC7BC900E8DC69 /* AppDelegate.m */,
@@ -552,9 +591,11 @@
 				1DE92E1C1CDDDD2900E8DC69 /* JCFriendTrendsController.xib in Resources */,
 				1DE92E2E1CDE324E00E8DC69 /* JCRecommendCategoryCell.xib in Resources */,
 				1DE92E211CDDE57A00E8DC69 /* JCRecommendViewController.xib in Resources */,
+				1DF2464C1CE4CEF90052C8C9 /* JCLoginController.xib in Resources */,
 				1D0C88391CDA4CCC00CF9264 /* Assets.xcassets in Resources */,
 				1DE92E331CDEE51300E8DC69 /* JCRecommendUserCell.xib in Resources */,
 				1D07C0571CE36BC000DA2D0E /* JCTagCell.xib in Resources */,
+				1D16F2F61CE958D80011A88A /* JCPushView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,12 +668,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D16F2F01CE846800011A88A /* JCLoginBtn.m in Sources */,
+				1DF2464B1CE4CEF90052C8C9 /* JCLoginController.m in Sources */,
 				1DE92E101CDC7BC900E8DC69 /* UIView+JCExtension.m in Sources */,
 				1DE92E091CDC7BC900E8DC69 /* JCFriendTrendsController.m in Sources */,
 				1DE92E1A1CDD727600E8DC69 /* UIBarButtonItem+JCNavigationItem.m in Sources */,
 				1D07C0521CE36A6600DA2D0E /* JCTag.m in Sources */,
 				1DE92E0D1CDC7BC900E8DC69 /* JCNewPostsController.m in Sources */,
 				1DE92E321CDEE51300E8DC69 /* JCRecommendUserCell.m in Sources */,
+				1D16F2EA1CE776580011A88A /* JCQuickLoginBtn.m in Sources */,
 				1DE92E081CDC7BC900E8DC69 /* JCEssenceController.m in Sources */,
 				1DE92E0C1CDC7BC900E8DC69 /* JCMeViewController.m in Sources */,
 				1D07C0561CE36BC000DA2D0E /* JCTagCell.m in Sources */,
@@ -645,7 +689,9 @@
 				1DE92E0E1CDC7BC900E8DC69 /* AppDelegate.m in Sources */,
 				1DE92E361CDEFACA00E8DC69 /* JCRecommandUser.m in Sources */,
 				1D07C04F1CE2B8DE00DA2D0E /* JCRecommendTagsViewController.m in Sources */,
+				1D16F2ED1CE828F40011A88A /* JCTextField.m in Sources */,
 				1DE92E241CDE1BEB00E8DC69 /* JCRecommandCategory.m in Sources */,
+				1D16F2F41CE958C90011A88A /* JCPushView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

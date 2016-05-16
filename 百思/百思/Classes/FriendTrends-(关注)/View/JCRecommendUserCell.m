@@ -35,4 +35,12 @@
     self.screenNameLabel.text=user.screen_name;
     self.fansCountLabel.text=[NSString stringWithFormat:@"有%ld个粉丝",user.fans_count];
 }
+-(void)setFrame:(CGRect)frame{
+    
+    frame.size.width-=20;
+    frame.size.height-=1;
+    frame.origin.x+=10;
+    
+    [super setFrame:frame];
+}
 @end
